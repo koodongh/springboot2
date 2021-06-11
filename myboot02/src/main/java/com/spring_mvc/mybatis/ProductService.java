@@ -10,8 +10,10 @@ import org.springframework.stereotype.Service;
 public class ProductService implements IProductService {
 	
 	// MyBatis 사용하는 경우
-	@Autowired
+	
+	
 	@Qualifier("IProductDAO")
+	@Autowired
 	IProductDAO dao;
 
 	@Override

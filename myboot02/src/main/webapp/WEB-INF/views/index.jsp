@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>index 페이지</title>
+		<title>index 페이지변경</title>
 	</head>
 	<body>	
 		<h3>mybatis 사용</h3>
