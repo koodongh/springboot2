@@ -1,0 +1,41 @@
+.container {
+	margin-top: 12rem;
+	margin-bottom: 15rem;
+}
+
+.card-title h2{
+	 text-align:center;
+	 color:#000000;
+	 font-size: 50px;
+}
+
+.card-body{
+	width:50vw;
+    margin: 0 auto;
+    width:20rem;
+}
+.card-body h5{
+	text-align:center;
+	font-size: 15px;
+}
+
+.card-body button {
+	width:15rem;
+	color : #ffffff;
+	margin-top: 10px;
+}
+
+.button-location {
+	text-align:center;
+}
+
+#btn-Yes {
+	color: black;
+}
+
+#idCheck {
+	background-color: none;
+	border: 2px solid #f8f9fa;
+	border-radius: 10px;
+	color: black;
+}

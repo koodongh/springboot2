@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.multi.shampoorang.dao.IDislikeDAO">
+	<resultMap id="dislikes" type="com.multi.shampoorang.model.DislikeVO">
+		<result property="dislikes_id" column="dislikes_id" />
+	    <result property="member_id" column="member_id" />
+	    <result property="ingd_name" column="ingd_name" />
+	</resultMap>
+	
+	<select id="dislikeList" resultMap="dislikes" parameterType="String">	  	  	
+		SELECT * FROM dislikes
+		WHERE member_id = #{member_id}
+	</select>
+	
+	<insert id="insertDislike" parameterType="hashmap">
+			INSERT INTO dislikes (member_id, ingd_name)
+			VALUES (#{member_id}, #{ingd_name})
+	</insert>
+	
+	<delete id="deleteDislike"  parameterType="String">
+			DELETE FROM dislikes WHERE dislikes_id=#{dislikes_id} 
+	</delete>
+</mapper>

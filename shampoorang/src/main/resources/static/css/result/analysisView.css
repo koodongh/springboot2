@@ -1,0 +1,56 @@
+.container {
+	margin-bottom: 6rem;
+}
+
+.notice-text {
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+
+.notice-text p {
+	font-size: 14px;
+	color: grey;
+}
+
+.card-align-middle {
+	text-align:center;
+}
+
+.card-title h2 {
+	color: #000000;
+	font-size: 50px;
+}
+
+.shampoo-image img{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 200px;
+	height: 200px;
+
+}
+
+.bad-ingredient h3 {
+	font-size: 30px;
+	margin-top: 40px;
+}
+
+.bad-ingredient h4 {
+	font-size: 20px;
+}
+
+.card-body button {
+	width: 15rem;
+	height: 4rem;
+	margin-top: 20px;
+	color: #ffffff;
+	background: black;
+}
+.good-ingredient h3 {
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.good-ingredient h4 {
+	font-size: 20px;
+}
